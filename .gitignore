@@ -1,0 +1,45 @@
+## Ignoramos los archivos de la docuemtnacion
+## Debemos generar una entrada para cada Proyecto a crear
+##/projects/template/doc
+
+## ignoramos un project completo
+/projects/project_001
+/projects/template
+/projects/template_freertos
+/projects/template_current
+/template
+
+
+
+
+## ignoramos los archivos con extencion *.dat
+*.dat
+*.jpg
+
+########################################################################################
+##
+## ignoramos los archivos con extencion *.o y *.d, dentro del Directorio /out/obj/
+##
+########################################################################################
+# out/obj/*.o
+# out/obj/*.d
+## si ignoramso el contenido del directorio no realiza el seguimiento del mismo y falla 
+## el make del repositorio
+# out/app/
+*.o
+*.d
+## para que genere el directorio /out/obj/, no funciona
+#out/obj/
+# !out/obj
+# !out/app
+
+template_c_code_Kate
+
+########################################################################################
+##
+## Ignoramos el direcotrio y los archivos de configuracion del IDE
+##
+########################################################################################
+/.settings
+/.cproject
+/.project
