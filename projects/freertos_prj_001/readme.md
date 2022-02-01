@@ -1,6 +1,6 @@
 # Ejemplo de Implementacion de FreeRTOS
 
-# Contenido
+## Contenido
 * [Macros para configuracion de tiempos y pin](#macros-para-configuracion-de-tiempos-y-pin)
 * [Macros para Seleccion y configuracion del Pin](#macros-para-seleccion-y-configuracion-del-pin)
 * [Configuracion del Stack para la Tarea vTaskblink](#configuracion-del-stack-para-la-tarea-vtaskblink)
@@ -9,7 +9,7 @@
 * [Funcion Principal](#funcion-principal)
 * [Definicion del Prototipo de tarea para el manejo del Led](#definicion-del-prototipo-de-tarea-para-el-manejo-del-led)
 
-## Macros para configuracion de tiempos y pin 
+### 1. Macros para configuracion de tiempos y pin 
 ~~~ c   
 // ----- Timing definitions -------------------------------------------------
 #define BLINK_TIME_ON   200 /**<@brief definimos el Tiempo de encendido para el LED */
@@ -18,7 +18,7 @@
 #define BLINK_CICLE_PAUSE   4
 ~~~
 
-## Macros para Seleccion y configuracion del Pin 
+### 2. Macros para Seleccion y configuracion del Pin 
 ~~~ c
 //
 /* configuracion para la placa: STM32-H103
@@ -30,14 +30,14 @@
 ~~~
 Mediantes estas seleccionamos el **PIN** y configuramos el tipo de referencia, que depende de la configuracion del hardware, para **BluePill** esta debe ser **1**, Pull-Up en el pin **PC.13**.
 
-## Configuracion del Stack para la Tarea vTaskblink
+### 3. Configuracion del Stack para la Tarea vTaskblink
 ~~~ c
 #define STACKsIZE_vTaskblink    (configMINIMAL_STACK_SIZE) /**<@brief definimos el tamaño del STACK de memoria para la tarea que maneja del LED */
 ~~~
 Establecemos el stack en el valor minimo permitido
 
 
-## Macros Funciones para manipulacion de delays
+### 4. Macros Funciones para manipulacion de delays
 ~~~ c
 #define iniDelayMs(acuMs) ...
 
@@ -46,18 +46,18 @@ Establecemos el stack en el valor minimo permitido
 Inicializacion de una variable del tipo **portTickType**, y delays en mili-segundos.
 
 
-## Macros Funciones para manejo del LED
+### 5. Macros Funciones para manejo del LED
 ~~~ c
 #define LED_OFF()   /* Apaga el LED */
 #define LED_ON()    /* Enciende el LED */
 #define LED_INIT()  /* Inicializacion del LED */
 ~~~
 
-## Funcion Principal 
+### 6. Funcion Principal 
 En esta creamos la tarea, inicializamos el **scheduler** y en caso de falla creamos un loop inifinito.
 
 
-## Definicion del Prototipo de tarea para el manejo del Led
+### 7. Definicion del Prototipo de tarea para el manejo del Led
 ~~~ c 
   void vTaskblink(void *pvParameters){}
 ~~~ 
