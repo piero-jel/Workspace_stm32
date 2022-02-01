@@ -2,14 +2,14 @@
 
 ## Contenido
 * [1. Macros para configuracion de tiempos y pin](#1-macros-para-configuracion-de-tiempos-y-pin)
-* [2. Macros para Seleccion y configuracion del Pin](#2--macros-para-seleccion-y-configuracion-del-pin)
+* [2. Macros para Seleccion y configuracion del Pin](#2-macros-para-seleccion-y-configuracion-del-pin)
 * [3. Configuracion del Stack para la Tarea vTaskblink](#3-configuracion-del-stack-para-la-tarea-vtaskblink)
 * [4. Macros Funciones para manipulacion de delays](#4-macros-funciones-para-manipulacion-de-delays)
 * [5. Macros Funciones para manejo del LED](#5-macros-funciones-para-manejo-del-led)
 * [6. Funcion Principal](#6-funcion-principal)
 * [7. Definicion del Prototipo de tarea para el manejo del Led](#7-definicion-del-prototipo-de-tarea-para-el-manejo-del-led)
 
-### 1 Macros para configuracion de tiempos y pin 
+### 1. Macros para configuracion de tiempos y pin 
 ~~~ c   
 // ----- Timing definitions -------------------------------------------------
 #define BLINK_TIME_ON   200 /**<@brief definimos el Tiempo de encendido para el LED */
@@ -18,7 +18,7 @@
 #define BLINK_CICLE_PAUSE   4
 ~~~
 
-### 2 - Macros para Seleccion y configuracion del Pin 
+### 2. Macros para Seleccion y configuracion del Pin 
 ~~~ c
 //
 /* configuracion para la placa: STM32-H103
