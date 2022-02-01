@@ -180,7 +180,6 @@ TODO: version 01v0d0
 
 /**
 * 
-* ****************************************************************************//**
 * \def LED(Action);
 * \brief Macro funcion para realizar diferentes acciones sobre el led predefinido. 
 * \param Action : Accion que se desea ejecutar sobre el LED, las Disponibles son
@@ -207,8 +206,7 @@ TODO: version 01v0d0
 #define LED(Action) LED_##Action()
     
 /**
- * 
- * ********************************************************************
+ *  
  * \fn int main(void);
  * @brief Funcion Principal
  * @return  La funcion Principal para esta aplicacion nunca debe
