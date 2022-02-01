@@ -1,55 +1,16 @@
 # Contenido
-* [Seleccionando el Proyecto](#seleccionando-el-proyecto)
-* [Proyectos disponibles](#proyectos-disponibles)
-* [Estableciendo el nombre del Ejecutable](#estableciendo-el-nombre-del-ejecutable)
-* [Compilando y corriendo el proyecto seleccionado](#compilando-y-corriendo-el-proyecto-seleccionado)
-* [Configuracion](#configuracion)
-* [Requirements](#requirements)
-* [Install cross compiler](#install-cross-compiler)
-* [Local Setup and Running on Windows, Linux and Mac OS](#local-setup-and-running-on-windows,-linux-and-mac-os)
-* [Arbol jeraquico del Proyecto](#arbol-jeraquico-del-proyecto)
-
-
-
-# Seleccionando el Proyecto
-Dentro del archivo **aplication.mk** debemos establecer la variable **PROJECT = __path/folder_project__**. 
-
-- Por ejemplo:
-~~~  
-  PROJECT = projects/project_fsm_01
-  #PROJECT = projects/freertos_prj_001
-~~~
-~~~
-  #PROJECT = projects/project_fsm_01
-  PROJECT = projects/freertos_prj_001
-~~~
-## Proyectos disponibles:  
-  1. project_fsm_01 [project_fsm_01](./projects/project_fsm_01/readme.md)
-    
-  2. freertos_prj_001 [freertos_prj_001](./projects/freertos_prj_001/readme.md)
-
- 
-## Estableciendo el nombre del Ejecutable
-  Dentro del archivo [**aplication.mk**](./aplication.mk) debemos establecer la variable **APP_NAME ?= Name.extension**.
+* [1. Requirements](#1-requirements)
+* [2. Install cross compiler](#2-install-cross-compiler)
+* [3. Local Setup and Running on Windows, Linux and Mac OS](#3-local-setup-and-running-on-windows,-linux-and-mac-os)
+* [4. Arbol jeraquico del Proyecto](#4-arbol-jeraquico-del-proyecto)
+* [5. Descripcion de los Archivos](#5-Descripcion de los Archivos)
+* [6. Proyectos disponibles](#6-proyectos-disponibles)
+* [7. Seleccionando el Proyecto](#7-seleccionando-el-proyecto)
+* [8. Estableciendo el nombre del Ejecutable](#8-estableciendo-el-nombre-del-ejecutable)
+* [9. Compilando y corriendo el proyecto seleccionado](#9-compilando-y-corriendo-el-proyecto-seleccionado)
   
-  La extension dependera de loader para el microncontrolador para sistemas genericos podemos colocar __hex__, o para sistemas mas avanzadso __elf__
-  
-  
-## Compilando y corriendo el proyecto seleccionado:
-  ~~~
-  make new
-  ~~~
-  ~~~
-  make run
-  ~~~
-  ~~~
-  make download
-  ~~~
-## Configuracion
-
+## 1. Requirements
 To run this app, you will need to follow these 3 steps:
-
-# Requirements
   - a Laptop
 
   - Text Editor or IDE (eg. [vscode](https://code.visualstudio.com/download), [kate](https://kate-editor.org/es/), [vi/vim](https://www.vim.org/download.php)), [eclipse CDT](https://www.eclipse.org/downloads/)
@@ -68,7 +29,7 @@ To run this app, you will need to follow these 3 steps:
       sudo apt install git
     ~~~
 
-# Install cross compiler
+## 2. Install cross compiler
   
   - [Linux ARM-Platform](https://platformio.org/platforms/linux_arm) 
   ~~~
@@ -76,6 +37,10 @@ To run this app, you will need to follow these 3 steps:
     sudo apt-get install gcc-arm-none-eabi -y
     sudo apt-get install stm32flash -y
     sudo apt-get install openocd -y
+  ~~~
+  
+  ***Para otros Targets***
+  ~~~
     sudo apt install crossbuild-essential-armhf
     sudo apt install crossbuild-essential-arm64
   ~~~
@@ -100,7 +65,7 @@ To run this app, you will need to follow these 3 steps:
   - [Windows - CyG Win](https://www.cygwin.com/setup-x86_64.exe) installers.
   
   
-# Local Setup and Running on Windows, Linux and Mac OS
+## 3. Local Setup and Running on Windows, Linux and Mac OS
 
   - Crating new directory, optional
   ~~~
@@ -129,7 +94,7 @@ To run this app, you will need to follow these 3 steps:
   ~~~
   
 
-# Arbol jeraquico del Proyecto
+## 4. Arbol jeraquico del Proyecto
 ~~~ 
   ./
   │
@@ -261,16 +226,16 @@ To run this app, you will need to follow these 3 steps:
       │     └─> Makefile "reglas de configrua solo al proyecto"
 ~~~ 
  
-# Descripcion de los Archivos
-## I)- aplicaction.mk 
+## 5. Descripcion de los Archivos
+### I)- aplicaction.mk 
 Lo primero que nos permite establecer es que proyecto debe compilar, el nombre que le daremos al mismo.
 Tambien contiene la configuracion para compilar el proyecto seleccionado, determinar el microncontrolador los diferentes flags de compilacion y enlazado. La versiones para ciertos modulos, en caso de ser necesario. 
 No se aconseja modificar la variable MAKEFILE_VER, esta debe permacer con el valor '1'
         
-## II)- configuration.mk
+### II)- configuration.mk
 Este archivo nos permite establecer que compilador utilizaremos como asi tambien demas comandos necesarios para construir el proyecto. Incluyendo los comandos para descargar el archivo binario al microncontrolador, con sus respectivos FLAGS.
     
-## III)- Makefile
+### III)- Makefile
 Este es el mekefile principal del espacio de trabajo, este no debe ser modificado, al menos que se desean cambios drasticos en la operacion de compilacion. 
 
 Para obtenes mas informacion sobre el alcance del mismo podemos teclear desde una consola dentro del directorio principal del workspace :
@@ -282,7 +247,7 @@ Para obtenes mas informacion sobre el alcance del mismo podemos teclear desde un
   - make info : imprime informacion resumida del **Workspace**
   - make debug : imprime informacion detallada para depurar la compilacion del proyecto
         
-## IV)- Eclipse :
+### IV)- Eclipse :
     En caso de Importar el workspace en eclipse debemos considerar agregar en:
 ~~~    
   Project
@@ -309,3 +274,37 @@ Para obtenes mas informacion sobre el alcance del mismo podemos teclear desde un
 **path example**: PATH_ETC := /home/*Username*/eclipseARM, Este depende de la ubicacion donde descargamos y descomprimimos la version de *arm-none-eabi-gcc*.
 
 [GNU Arm Embedded Toolchain Downloads](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
+
+## 6. Proyectos disponibles:  
+  1. project_fsm_01 [project_fsm_01](./projects/project_fsm_01/readme.md)
+    
+  2. freertos_prj_001 [freertos_prj_001](./projects/freertos_prj_001/readme.md)
+  
+## 7. Seleccionando el Proyecto
+Dentro del archivo **aplication.mk** debemos establecer la variable **PROJECT = __path/folder_project__**. 
+***Ejemplo:***
+~~~  
+  PROJECT = projects/project_fsm_01
+  #PROJECT = projects/freertos_prj_001
+~~~
+~~~
+  #PROJECT = projects/project_fsm_01
+  PROJECT = projects/freertos_prj_001
+~~~
+ 
+## 8. Estableciendo el nombre del Ejecutable
+  Dentro del archivo [**aplication.mk**](./aplication.mk) debemos establecer la variable **APP_NAME ?= Name.extension**.
+  
+  La extension dependera de loader para el microncontrolador para sistemas genericos podemos colocar __hex__, o para sistemas mas avanzadso __elf__
+  
+  
+## 9. Compilando y corriendo el proyecto seleccionado:
+  ~~~
+  make new
+  ~~~
+  ~~~
+  make run
+  ~~~
+  ~~~
+  make download
+  ~~~
