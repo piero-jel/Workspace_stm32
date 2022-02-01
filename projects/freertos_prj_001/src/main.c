@@ -257,7 +257,7 @@ void vTaskblink(void *pvParameters)
             DelayMs(AcuTime,BLINK_TIME_PAUSE);
         }
     }    
-    vTaskDelete(NULL);    
+    vTaskDelete(NULL);
 }
 /**
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐           
