@@ -52,8 +52,7 @@ To run this app, you will need to follow these 3 steps:
 # Requirements
   - a Laptop
 
-  - Text Editor or IDE (eg. [vscode](https://code.visualstudio.com/download), [kate](https://kate-editor.org/es/), [vi/vim](https://www.vim.org/download.php))
-
+  - Text Editor or IDE (eg. [vscode](https://code.visualstudio.com/download), [kate](https://kate-editor.org/es/), [vi/vim](https://www.vim.org/download.php)), [eclipse CDT](https://www.eclipse.org/downloads/)
   - [Git Bash Windows](https://git-scm.com/downloads)
   - [Git Command in Linux](https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line)
   
@@ -275,14 +274,13 @@ Este archivo nos permite establecer que compilador utilizaremos como asi tambien
 Este es el mekefile principal del espacio de trabajo, este no debe ser modificado, al menos que se desean cambios drasticos en la operacion de compilacion. 
 
 Para obtenes mas informacion sobre el alcance del mismo podemos teclear desde una consola dentro del directorio principal del workspace :
-    - make help
-    
-    - make : compila el proyecto, solo  contemplamdo los ultimos cambios. Si otros modulos dependen de este no es aconsejable usar este target
-    - make all : Idem al anterior "make"
-    - make new : Borra todos los archivos resultado de la compilacion y recompila todo el proyecto desde el inicio
-    - make clean : Limpia todos los directorios donde genera los archivos de compilacion, para poder compilar desde cero
-    - make info : imprime informacion resumida del **Workspace**
-    - make debug : imprime informacion detallada para depurar la compilacion del proyecto
+  - make help : muestra el mensaje de ayuda.
+  - make : compila el proyecto, solo  contemplamdo los ultimos cambios. Si otros modulos dependen de este no es aconsejable usar este target
+  - make all : Idem al anterior "make"
+  - make new : Borra todos los archivos resultado de la compilacion y recompila todo el proyecto desde el inicio
+  - make clean : Limpia todos los directorios donde genera los archivos de compilacion, para poder compilar desde cero
+  - make info : imprime informacion resumida del **Workspace**
+  - make debug : imprime informacion detallada para depurar la compilacion del proyecto
         
 ## IV)- Eclipse :
     En caso de Importar el workspace en eclipse debemos considerar agregar en:
@@ -310,4 +308,4 @@ Para obtenes mas informacion sobre el alcance del mismo podemos teclear desde un
 
 **path example**: PATH_ETC := /home/*Username*/eclipseARM, Este depende de la ubicacion donde descargamos y descomprimimos la version de *arm-none-eabi-gcc*.
 
-![**page**:] (https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
+![GNU Arm Embedded Toolchain Downloads] (https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
