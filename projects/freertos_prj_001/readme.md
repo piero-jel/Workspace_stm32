@@ -1,3 +1,5 @@
+# Ejemplo de Implementacion de FreeRTOS
+
 # Contenido
 * [Macros para configuracion de tiempos y pin](#macros-para-configuracion-de-tiempos-y-pin)
 * [Macros para Seleccion y configuracion del Pin](#macros-para-seleccion-y-configuracion-del-pin)
@@ -6,8 +8,6 @@
 * [Macros Funciones para manejo del LED](#macros-funciones-para-manejo-del-led)
 * [Funcion Principal](#funcion-principal)
 * [Definicion del Prototipo de tarea para el manejo del Led](#definicion-del-prototipo-de-tarea-para-el-manejo-del-led)
-
-# Ejemplo de Implementacion de FreeRTOS
 
 ## Macros para configuracion de tiempos y pin 
 ~~~ c   
