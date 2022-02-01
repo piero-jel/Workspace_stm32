@@ -56,13 +56,13 @@ To run this app, you will need to follow these 3 steps:
   - [Git Bash Windows](https://git-scm.com/downloads)
   - [Git Command in Linux](https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line)
   
-    * opt 1
+    * option 1
     ~~~
       sudo apt-get update && sudo apt-get upgrade -y          
       sudo apt-get install git
     ~~~
     
-    * opt 2
+    * option 2
     ~~~
       sudo apt update && sudo apt upgrade -y          
       sudo apt install git
@@ -308,4 +308,4 @@ Para obtenes mas informacion sobre el alcance del mismo podemos teclear desde un
 
 **path example**: PATH_ETC := /home/*Username*/eclipseARM, Este depende de la ubicacion donde descargamos y descomprimimos la version de *arm-none-eabi-gcc*.
 
-![GNU Arm Embedded Toolchain Downloads] (https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
+[GNU Arm Embedded Toolchain Downloads](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
