@@ -1,0 +1,828 @@
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 out/obj/_startup.o
+ .data          0x0000000000000000        0x0 out/obj/_startup.o
+ .bss           0x0000000000000000        0x0 out/obj/_startup.o
+ .text.__initialize_data
+                0x0000000000000000       0x36 out/obj/_startup.o
+ .text.__initialize_bss
+                0x0000000000000000       0x2e out/obj/_startup.o
+ .text.__run_init_array
+                0x0000000000000000       0x70 out/obj/_startup.o
+ .text.__run_fini_array
+                0x0000000000000000       0x40 out/obj/_startup.o
+ .text          0x0000000000000000        0x0 out/obj/stm32f10x_rcc.o
+ .data          0x0000000000000000        0x0 out/obj/stm32f10x_rcc.o
+ .bss           0x0000000000000000        0x0 out/obj/stm32f10x_rcc.o
+ .data.APBAHBPrescTable
+                0x0000000000000000       0x10 out/obj/stm32f10x_rcc.o
+ .data.ADCPrescTable
+                0x0000000000000000        0x4 out/obj/stm32f10x_rcc.o
+ .text.RCC_DeInit
+                0x0000000000000000       0x5c out/obj/stm32f10x_rcc.o
+ .text.RCC_HSEConfig
+                0x0000000000000000       0x5c out/obj/stm32f10x_rcc.o
+ .text.RCC_WaitForHSEStartUp
+                0x0000000000000000       0x50 out/obj/stm32f10x_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x0000000000000000       0x3c out/obj/stm32f10x_rcc.o
+ .text.RCC_HSICmd
+                0x0000000000000000       0x20 out/obj/stm32f10x_rcc.o
+ .text.RCC_PLLConfig
+                0x0000000000000000       0x3c out/obj/stm32f10x_rcc.o
+ .text.RCC_PLLCmd
+                0x0000000000000000       0x20 out/obj/stm32f10x_rcc.o
+ .text.RCC_SYSCLKConfig
+                0x0000000000000000       0x38 out/obj/stm32f10x_rcc.o
+ .text.RCC_GetSYSCLKSource
+                0x0000000000000000       0x1c out/obj/stm32f10x_rcc.o
+ .text.RCC_HCLKConfig
+                0x0000000000000000       0x38 out/obj/stm32f10x_rcc.o
+ .text.RCC_PCLK1Config
+                0x0000000000000000       0x38 out/obj/stm32f10x_rcc.o
+ .text.RCC_PCLK2Config
+                0x0000000000000000       0x38 out/obj/stm32f10x_rcc.o
+ .text.RCC_ITConfig
+                0x0000000000000000       0x4c out/obj/stm32f10x_rcc.o
+ .text.RCC_USBCLKConfig
+                0x0000000000000000       0x1c out/obj/stm32f10x_rcc.o
+ .text.RCC_ADCCLKConfig
+                0x0000000000000000       0x38 out/obj/stm32f10x_rcc.o
+ .text.RCC_LSEConfig
+                0x0000000000000000       0x40 out/obj/stm32f10x_rcc.o
+ .text.RCC_LSICmd
+                0x0000000000000000       0x20 out/obj/stm32f10x_rcc.o
+ .text.RCC_RTCCLKConfig
+                0x0000000000000000       0x24 out/obj/stm32f10x_rcc.o
+ .text.RCC_RTCCLKCmd
+                0x0000000000000000       0x20 out/obj/stm32f10x_rcc.o
+ .text.RCC_GetClocksFreq
+                0x0000000000000000      0x16c out/obj/stm32f10x_rcc.o
+ .text.RCC_AHBPeriphClockCmd
+                0x0000000000000000       0x3c out/obj/stm32f10x_rcc.o
+ .text.RCC_APB2PeriphClockCmd
+                0x0000000000000000       0x3c out/obj/stm32f10x_rcc.o
+ .text.RCC_APB1PeriphClockCmd
+                0x0000000000000000       0x3c out/obj/stm32f10x_rcc.o
+ .text.RCC_APB2PeriphResetCmd
+                0x0000000000000000       0x3c out/obj/stm32f10x_rcc.o
+ .text.RCC_APB1PeriphResetCmd
+                0x0000000000000000       0x3c out/obj/stm32f10x_rcc.o
+ .text.RCC_BackupResetCmd
+                0x0000000000000000       0x20 out/obj/stm32f10x_rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x0000000000000000       0x20 out/obj/stm32f10x_rcc.o
+ .text.RCC_MCOConfig
+                0x0000000000000000       0x20 out/obj/stm32f10x_rcc.o
+ .text.RCC_GetFlagStatus
+                0x0000000000000000       0x74 out/obj/stm32f10x_rcc.o
+ .text.RCC_ClearFlag
+                0x0000000000000000       0x1c out/obj/stm32f10x_rcc.o
+ .text.RCC_GetITStatus
+                0x0000000000000000       0x34 out/obj/stm32f10x_rcc.o
+ .text.RCC_ClearITPendingBit
+                0x0000000000000000       0x20 out/obj/stm32f10x_rcc.o
+ .debug_info    0x0000000000000000      0x8f9 out/obj/stm32f10x_rcc.o
+ .debug_abbrev  0x0000000000000000      0x1f9 out/obj/stm32f10x_rcc.o
+ .debug_aranges
+                0x0000000000000000      0x118 out/obj/stm32f10x_rcc.o
+ .debug_ranges  0x0000000000000000      0x108 out/obj/stm32f10x_rcc.o
+ .debug_line    0x0000000000000000      0x669 out/obj/stm32f10x_rcc.o
+ .debug_str     0x0000000000000000      0x69b out/obj/stm32f10x_rcc.o
+ .comment       0x0000000000000000       0x5a out/obj/stm32f10x_rcc.o
+ .debug_frame   0x0000000000000000      0x4f4 out/obj/stm32f10x_rcc.o
+ .ARM.attributes
+                0x0000000000000000       0x2d out/obj/stm32f10x_rcc.o
+ .text          0x0000000000000000        0x0 out/obj/_exit.o
+ .data          0x0000000000000000        0x0 out/obj/_exit.o
+ .bss           0x0000000000000000        0x0 out/obj/_exit.o
+ .text._exit    0x0000000000000000        0xc out/obj/_exit.o
+ .text.abort    0x0000000000000000        0xa out/obj/_exit.o
+ .debug_info    0x0000000000000000      0x94a out/obj/_exit.o
+ .debug_abbrev  0x0000000000000000      0x200 out/obj/_exit.o
+ .debug_aranges
+                0x0000000000000000       0x28 out/obj/_exit.o
+ .debug_ranges  0x0000000000000000       0x18 out/obj/_exit.o
+ .debug_line    0x0000000000000000       0xfc out/obj/_exit.o
+ .debug_str     0x0000000000000000      0x5e0 out/obj/_exit.o
+ .comment       0x0000000000000000       0x5a out/obj/_exit.o
+ .debug_frame   0x0000000000000000       0x4c out/obj/_exit.o
+ .ARM.attributes
+                0x0000000000000000       0x2d out/obj/_exit.o
+ .text          0x0000000000000000        0x0 out/obj/misc.o
+ .data          0x0000000000000000        0x0 out/obj/misc.o
+ .bss           0x0000000000000000        0x0 out/obj/misc.o
+ .text.NVIC_PriorityGroupConfig
+                0x0000000000000000       0x24 out/obj/misc.o
+ .text.NVIC_Init
+                0x0000000000000000       0xc4 out/obj/misc.o
+ .text.NVIC_SetVectorTable
+                0x0000000000000000       0x2c out/obj/misc.o
+ .text.NVIC_SystemLPConfig
+                0x0000000000000000       0x40 out/obj/misc.o
+ .text.SysTick_CLKSourceConfig
+                0x0000000000000000       0x38 out/obj/misc.o
+ .debug_info    0x0000000000000000      0x56e out/obj/misc.o
+ .debug_abbrev  0x0000000000000000      0x196 out/obj/misc.o
+ .debug_aranges
+                0x0000000000000000       0x40 out/obj/misc.o
+ .debug_ranges  0x0000000000000000       0x30 out/obj/misc.o
+ .debug_line    0x0000000000000000      0x1de out/obj/misc.o
+ .debug_str     0x0000000000000000      0x44a out/obj/misc.o
+ .comment       0x0000000000000000       0x5a out/obj/misc.o
+ .debug_frame   0x0000000000000000       0xd8 out/obj/misc.o
+ .ARM.attributes
+                0x0000000000000000       0x2d out/obj/misc.o
+ .text          0x0000000000000000        0x0 out/obj/exception_handlers.o
+ .data          0x0000000000000000        0x0 out/obj/exception_handlers.o
+ .bss           0x0000000000000000        0x0 out/obj/exception_handlers.o
+ .text          0x0000000000000000        0x0 out/obj/system_stm32f10x.o
+ .data          0x0000000000000000        0x0 out/obj/system_stm32f10x.o
+ .bss           0x0000000000000000        0x0 out/obj/system_stm32f10x.o
+ .text          0x0000000000000000        0x0 out/obj/_sbrk.o
+ .data          0x0000000000000000        0x0 out/obj/_sbrk.o
+ .bss           0x0000000000000000        0x0 out/obj/_sbrk.o
+ .debug_info    0x0000000000000000      0x93b out/obj/_sbrk.o
+ .debug_abbrev  0x0000000000000000      0x1b6 out/obj/_sbrk.o
+ .debug_aranges
+                0x0000000000000000       0x18 out/obj/_sbrk.o
+ .debug_line    0x0000000000000000       0xbe out/obj/_sbrk.o
+ .debug_str     0x0000000000000000      0x5e2 out/obj/_sbrk.o
+ .comment       0x0000000000000000       0x5a out/obj/_sbrk.o
+ .ARM.attributes
+                0x0000000000000000       0x33 out/obj/_sbrk.o
+ .text          0x0000000000000000        0x0 out/obj/_initialize_hardware.o
+ .data          0x0000000000000000        0x0 out/obj/_initialize_hardware.o
+ .bss           0x0000000000000000        0x0 out/obj/_initialize_hardware.o
+ .text          0x0000000000000000        0x0 out/obj/vectors_stm32f10x.o
+ .data          0x0000000000000000        0x0 out/obj/vectors_stm32f10x.o
+ .bss           0x0000000000000000        0x0 out/obj/vectors_stm32f10x.o
+ .text          0x0000000000000000        0x0 out/obj/_reset_hardware.o
+ .data          0x0000000000000000        0x0 out/obj/_reset_hardware.o
+ .bss           0x0000000000000000        0x0 out/obj/_reset_hardware.o
+ .text          0x0000000000000000        0x0 out/obj/assert.o
+ .data          0x0000000000000000        0x0 out/obj/assert.o
+ .bss           0x0000000000000000        0x0 out/obj/assert.o
+ .text.__assert_func
+                0x0000000000000000       0x12 out/obj/assert.o
+ .debug_info    0x0000000000000000      0x965 out/obj/assert.o
+ .debug_abbrev  0x0000000000000000      0x1e3 out/obj/assert.o
+ .debug_aranges
+                0x0000000000000000       0x20 out/obj/assert.o
+ .debug_ranges  0x0000000000000000       0x10 out/obj/assert.o
+ .debug_line    0x0000000000000000       0xf4 out/obj/assert.o
+ .debug_str     0x0000000000000000      0x5f8 out/obj/assert.o
+ .comment       0x0000000000000000       0x5a out/obj/assert.o
+ .debug_frame   0x0000000000000000       0x30 out/obj/assert.o
+ .ARM.attributes
+                0x0000000000000000       0x2d out/obj/assert.o
+ .text          0x0000000000000000        0x0 out/obj/chip_systick.o
+ .data          0x0000000000000000        0x0 out/obj/chip_systick.o
+ .bss           0x0000000000000000        0x0 out/obj/chip_systick.o
+ .text.chip_systick_GetTicks
+                0x0000000000000000       0x14 out/obj/chip_systick.o
+ .text.chip_systick_TimeOut
+                0x0000000000000000       0x3c out/obj/chip_systick.o
+ .text.chip_systick_InitAcuMs
+                0x0000000000000000       0x20 out/obj/chip_systick.o
+ .text.chip_systick_pauseMs
+                0x0000000000000000       0x4c out/obj/chip_systick.o
+ .text.chip_systick_random
+                0x0000000000000000       0x24 out/obj/chip_systick.o
+ .bss.acuTime.6368
+                0x0000000000000000        0x2 out/obj/chip_systick.o
+ .text          0x0000000000000000        0x0 out/obj/chip_gpio.o
+ .data          0x0000000000000000        0x0 out/obj/chip_gpio.o
+ .bss           0x0000000000000000        0x0 out/obj/chip_gpio.o
+ .text.chip_gpio_InitPin
+                0x0000000000000000       0xf4 out/obj/chip_gpio.o
+ .text.chip_gpio_SetPinLow
+                0x0000000000000000       0x3c out/obj/chip_gpio.o
+ .text.chip_gpio_SetPinHigh
+                0x0000000000000000       0x3c out/obj/chip_gpio.o
+ .text.chip_gpio_SetPinToggle
+                0x0000000000000000       0x3c out/obj/chip_gpio.o
+ .text.chip_gpio_GetPinStatus
+                0x0000000000000000       0x2e out/obj/chip_gpio.o
+ .debug_info    0x0000000000000000      0xbe5 out/obj/chip_gpio.o
+ .debug_abbrev  0x0000000000000000      0x27d out/obj/chip_gpio.o
+ .debug_aranges
+                0x0000000000000000       0x40 out/obj/chip_gpio.o
+ .debug_ranges  0x0000000000000000       0x30 out/obj/chip_gpio.o
+ .debug_line    0x0000000000000000      0x232 out/obj/chip_gpio.o
+ .debug_str     0x0000000000000000      0x807 out/obj/chip_gpio.o
+ .comment       0x0000000000000000       0x5a out/obj/chip_gpio.o
+ .debug_frame   0x0000000000000000       0xd4 out/obj/chip_gpio.o
+ .ARM.attributes
+                0x0000000000000000       0x2d out/obj/chip_gpio.o
+ .text          0x0000000000000000        0x6 out/obj/chip_semihost.o
+ .data          0x0000000000000000        0x0 out/obj/chip_semihost.o
+ .bss           0x0000000000000000        0x0 out/obj/chip_semihost.o
+ .debug_line    0x0000000000000000       0x5e out/obj/chip_semihost.o
+ .debug_info    0x0000000000000000       0x26 out/obj/chip_semihost.o
+ .debug_abbrev  0x0000000000000000       0x14 out/obj/chip_semihost.o
+ .debug_aranges
+                0x0000000000000000       0x20 out/obj/chip_semihost.o
+ .debug_str     0x0000000000000000       0x93 out/obj/chip_semihost.o
+ .ARM.attributes
+                0x0000000000000000       0x1b out/obj/chip_semihost.o
+ .text          0x0000000000000000        0x0 out/obj/drv_blink.o
+ .data          0x0000000000000000        0x0 out/obj/drv_blink.o
+ .bss           0x0000000000000000        0x0 out/obj/drv_blink.o
+ .text.drv_blink_init
+                0x0000000000000000       0x20 out/obj/drv_blink.o
+ .text.drv_blink_update
+                0x0000000000000000       0x9e out/obj/drv_blink.o
+ .text.drv_blink_SetBlink
+                0x0000000000000000       0x2e out/obj/drv_blink.o
+ .text.drv_blink_UpBlink
+                0x0000000000000000       0x2c out/obj/drv_blink.o
+ .text.drv_blink_DownBlink
+                0x0000000000000000       0x2c out/obj/drv_blink.o
+ .text.drv_blink_GetBlink
+                0x0000000000000000       0x1a out/obj/drv_blink.o
+ .debug_info    0x0000000000000000      0xb27 out/obj/drv_blink.o
+ .debug_abbrev  0x0000000000000000      0x26a out/obj/drv_blink.o
+ .debug_aranges
+                0x0000000000000000       0x48 out/obj/drv_blink.o
+ .debug_ranges  0x0000000000000000       0x38 out/obj/drv_blink.o
+ .debug_line    0x0000000000000000      0x27c out/obj/drv_blink.o
+ .debug_str     0x0000000000000000      0x7e4 out/obj/drv_blink.o
+ .comment       0x0000000000000000       0x5a out/obj/drv_blink.o
+ .debug_frame   0x0000000000000000       0xf8 out/obj/drv_blink.o
+ .ARM.attributes
+                0x0000000000000000       0x2d out/obj/drv_blink.o
+ .text          0x0000000000000000        0x0 out/obj/drv_switch.o
+ .data          0x0000000000000000        0x0 out/obj/drv_switch.o
+ .bss           0x0000000000000000        0x0 out/obj/drv_switch.o
+ .rodata.vct_port
+                0x0000000000000000        0x2 out/obj/drv_switch.o
+ .rodata.vct_pin
+                0x0000000000000000        0x2 out/obj/drv_switch.o
+ .text.drv_switch_init
+                0x0000000000000000       0x48 out/obj/drv_switch.o
+ .text.drv_switch_update
+                0x0000000000000000      0x16c out/obj/drv_switch.o
+ .text.drv_switch_SetFunction
+                0x0000000000000000       0x28 out/obj/drv_switch.o
+ .debug_info    0x0000000000000000      0xb27 out/obj/drv_switch.o
+ .debug_abbrev  0x0000000000000000      0x25d out/obj/drv_switch.o
+ .debug_aranges
+                0x0000000000000000       0x30 out/obj/drv_switch.o
+ .debug_ranges  0x0000000000000000       0x20 out/obj/drv_switch.o
+ .debug_line    0x0000000000000000      0x230 out/obj/drv_switch.o
+ .debug_str     0x0000000000000000      0x7e3 out/obj/drv_switch.o
+ .comment       0x0000000000000000       0x5a out/obj/drv_switch.o
+ .debug_frame   0x0000000000000000       0x80 out/obj/drv_switch.o
+ .ARM.attributes
+                0x0000000000000000       0x2d out/obj/drv_switch.o
+ .text          0x0000000000000000        0x0 out/obj/main.o
+ .data          0x0000000000000000        0x0 out/obj/main.o
+ .bss           0x0000000000000000        0x0 out/obj/main.o
+ .bss.vct_fsm_tick
+                0x0000000000000000        0x0 out/obj/main.o
+ .bss.vct_arg_tick
+                0x0000000000000000        0x0 out/obj/main.o
+ .bss.vct_fsm_event
+                0x0000000000000000        0x0 out/obj/main.o
+ .bss.vct_arg_event
+                0x0000000000000000        0x0 out/obj/main.o
+ .text.init_hardware
+                0x0000000000000000        0xc out/obj/main.o
+ .text.init_software
+                0x0000000000000000        0xc out/obj/main.o
+ .bss.nFsm.6371
+                0x0000000000000000        0x4 out/obj/main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x0000000020000000 0x0000000000005000 xrw
+CCMRAM           0x0000000000000000 0x0000000000000000 xrw
+FLASH            0x0000000008000000 0x0000000000010000 xr
+FLASHB1          0x0000000000000000 0x0000000000000000 xr
+EXTMEMB0         0x0000000000000000 0x0000000000000000 xr
+EXTMEMB1         0x0000000000000000 0x0000000000000000 xr
+EXTMEMB2         0x0000000000000000 0x0000000000000000 xr
+EXTMEMB3         0x0000000000000000 0x0000000000000000 xr
+MEMORY_ARRAY     0x0000000000000000 0x0000000000000000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD out/obj/_startup.o
+LOAD out/obj/stm32f10x_rcc.o
+LOAD out/obj/_exit.o
+LOAD out/obj/misc.o
+LOAD out/obj/exception_handlers.o
+LOAD out/obj/system_stm32f10x.o
+LOAD out/obj/_sbrk.o
+LOAD out/obj/_initialize_hardware.o
+LOAD out/obj/vectors_stm32f10x.o
+LOAD out/obj/_reset_hardware.o
+LOAD out/obj/assert.o
+LOAD out/obj/chip_systick.o
+LOAD out/obj/chip_gpio.o
+LOAD out/obj/chip_semihost.o
+LOAD out/obj/drv_blink.o
+LOAD out/obj/drv_switch.o
+LOAD out/obj/main.o
+                0x0000000020005000                __stack = (ORIGIN (RAM) + LENGTH (RAM))
+                0x0000000020005000                _estack = __stack
+                0x0000000000000400                __Main_Stack_Size = 0x400
+                [!provide]                        PROVIDE (_Main_Stack_Size = __Main_Stack_Size)
+                0x0000000020004c00                __Main_Stack_Limit = (__stack - __Main_Stack_Size)
+                [!provide]                        PROVIDE (_Main_Stack_Limit = __Main_Stack_Limit)
+                0x0000000000000100                _Minimum_Stack_Size = 0x100
+                [!provide]                        PROVIDE (_Heap_Begin = _end_noinit)
+                [!provide]                        PROVIDE (_Heap_Limit = (__stack - __Main_Stack_Size))
+
+.isr_vector     0x0000000008000000      0x2ca
+ FILL mask 0xff
+                0x0000000008000000                __vectors_start = ABSOLUTE (.)
+                0x0000000008000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x10c out/obj/vectors_stm32f10x.o
+                0x0000000008000000                __isr_vectors
+ *(.cfmconfig)
+ *(.after_vectors .after_vectors.*)
+ .after_vectors
+                0x000000000800010c      0x110 out/obj/_startup.o
+                0x000000000800010c                _start
+ .after_vectors
+                0x000000000800021c       0xa8 out/obj/exception_handlers.o
+                0x000000000800021c                Reset_Handler
+                0x0000000008000222                NMI_Handler
+                0x0000000008000228                HardFault_Handler
+                0x000000000800023e                HardFault_Handler_C
+                0x000000000800024a                MemManage_Handler
+                0x0000000008000250                BusFault_Handler
+                0x0000000008000266                BusFault_Handler_C
+                0x0000000008000272                UsageFault_Handler
+                0x0000000008000288                UsageFault_Handler_C
+                0x0000000008000294                SVC_Handler
+                0x000000000800029a                DebugMon_Handler
+                0x00000000080002a0                PendSV_Handler
+ .after_vectors
+                0x00000000080002c4        0x6 out/obj/vectors_stm32f10x.o
+                0x00000000080002c4                EXTI2_IRQHandler
+                0x00000000080002c4                TIM8_TRG_COM_IRQHandler
+                0x00000000080002c4                TIM8_CC_IRQHandler
+                0x00000000080002c4                TIM1_CC_IRQHandler
+                0x00000000080002c4                TIM6_IRQHandler
+                0x00000000080002c4                PVD_IRQHandler
+                0x00000000080002c4                SDIO_IRQHandler
+                0x00000000080002c4                CAN2_RX1_IRQHandler
+                0x00000000080002c4                EXTI3_IRQHandler
+                0x00000000080002c4                TIM8_TRG_COM_TIM14_IRQHandler
+                0x00000000080002c4                TIM1_UP_TIM10_IRQHandler
+                0x00000000080002c4                TIM8_UP_TIM13_IRQHandler
+                0x00000000080002c4                EXTI0_IRQHandler
+                0x00000000080002c4                I2C2_EV_IRQHandler
+                0x00000000080002c4                CAN1_RX0_IRQHandler
+                0x00000000080002c4                TIM1_UP_TIM16_IRQHandler
+                0x00000000080002c4                CAN2_SCE_IRQHandler
+                0x00000000080002c4                ADC1_2_IRQHandler
+                0x00000000080002c4                SPI1_IRQHandler
+                0x00000000080002c4                TAMPER_IRQHandler
+                0x00000000080002c4                TIM6_DAC_IRQHandler
+                0x00000000080002c4                TIM1_BRK_TIM9_IRQHandler
+                0x00000000080002c4                CAN2_RX0_IRQHandler
+                0x00000000080002c4                TIM8_UP_IRQHandler
+                0x00000000080002c4                DMA2_Channel2_IRQHandler
+                0x00000000080002c4                DMA1_Channel4_IRQHandler
+                0x00000000080002c4                USART3_IRQHandler
+                0x00000000080002c4                RTC_IRQHandler
+                0x00000000080002c4                DMA1_Channel7_IRQHandler
+                0x00000000080002c4                CAN1_RX1_IRQHandler
+                0x00000000080002c4                UART5_IRQHandler
+                0x00000000080002c4                ADC3_IRQHandler
+                0x00000000080002c4                TIM4_IRQHandler
+                0x00000000080002c4                DMA2_Channel1_IRQHandler
+                0x00000000080002c4                I2C1_EV_IRQHandler
+                0x00000000080002c4                DMA1_Channel6_IRQHandler
+                0x00000000080002c4                UART4_IRQHandler
+                0x00000000080002c4                DMA2_Channel4_IRQHandler
+                0x00000000080002c4                TIM3_IRQHandler
+                0x00000000080002c4                RCC_IRQHandler
+                0x00000000080002c4                TIM8_BRK_TIM12_IRQHandler
+                0x00000000080002c4                TIM1_TRG_COM_IRQHandler
+                0x00000000080002c4                DMA1_Channel1_IRQHandler
+                0x00000000080002c4                Default_Handler
+                0x00000000080002c4                CEC_IRQHandler
+                0x00000000080002c4                EXTI15_10_IRQHandler
+                0x00000000080002c4                TIM14_IRQHandler
+                0x00000000080002c4                TIM13_IRQHandler
+                0x00000000080002c4                TIM12_IRQHandler
+                0x00000000080002c4                TIM7_IRQHandler
+                0x00000000080002c4                CAN2_TX_IRQHandler
+                0x00000000080002c4                TIM5_IRQHandler
+                0x00000000080002c4                EXTI9_5_IRQHandler
+                0x00000000080002c4                ETH_WKUP_IRQHandler
+                0x00000000080002c4                SPI2_IRQHandler
+                0x00000000080002c4                CAN1_TX_IRQHandler
+                0x00000000080002c4                DMA2_Channel5_IRQHandler
+                0x00000000080002c4                DMA1_Channel5_IRQHandler
+                0x00000000080002c4                EXTI4_IRQHandler
+                0x00000000080002c4                USB_LP_CAN1_RX0_IRQHandler
+                0x00000000080002c4                TIM1_TRG_COM_TIM17_IRQHandler
+                0x00000000080002c4                USB_HP_CAN1_TX_IRQHandler
+                0x00000000080002c4                DMA1_Channel3_IRQHandler
+                0x00000000080002c4                FSMC_IRQHandler
+                0x00000000080002c4                ETH_IRQHandler
+                0x00000000080002c4                TIM1_UP_IRQHandler
+                0x00000000080002c4                WWDG_IRQHandler
+                0x00000000080002c4                TIM2_IRQHandler
+                0x00000000080002c4                OTG_FS_WKUP_IRQHandler
+                0x00000000080002c4                TIM1_TRG_COM_TIM11_IRQHandler
+                0x00000000080002c4                TIM1_BRK_IRQHandler
+                0x00000000080002c4                EXTI1_IRQHandler
+                0x00000000080002c4                RTCAlarm_IRQHandler
+                0x00000000080002c4                DMA2_Channel4_5_IRQHandler
+                0x00000000080002c4                USART2_IRQHandler
+                0x00000000080002c4                I2C2_ER_IRQHandler
+                0x00000000080002c4                DMA1_Channel2_IRQHandler
+                0x00000000080002c4                TIM8_BRK_IRQHandler
+                0x00000000080002c4                CAN1_SCE_IRQHandler
+                0x00000000080002c4                FLASH_IRQHandler
+                0x00000000080002c4                USART1_IRQHandler
+                0x00000000080002c4                OTG_FS_IRQHandler
+                0x00000000080002c4                SPI3_IRQHandler
+                0x00000000080002c4                I2C1_ER_IRQHandler
+                0x00000000080002c4                USBWakeUp_IRQHandler
+                0x00000000080002c4                DMA2_Channel3_IRQHandler
+                0x00000000080002c4                TIM1_BRK_TIM15_IRQHandler
+
+.inits          0x00000000080002cc       0x28
+                0x00000000080002cc                __data_regions_array_start = .
+                0x00000000080002cc        0x4 LONG 0x80006c8 LOADADDR (.data)
+                0x00000000080002d0        0x4 LONG 0x20000000 ADDR (.data)
+                0x00000000080002d4        0x4 LONG 0x20000014 (ADDR (.data) + SIZEOF (.data))
+                0x00000000080002d8        0x4 LONG 0x80006c8 LOADADDR (.data_CCMRAM)
+                0x00000000080002dc        0x4 LONG 0x0 ADDR (.data_CCMRAM)
+                0x00000000080002e0        0x4 LONG 0x0 (ADDR (.data_CCMRAM) + SIZEOF (.data_CCMRAM))
+                0x00000000080002e4                __data_regions_array_end = .
+                0x00000000080002e4                __bss_regions_array_start = .
+                0x00000000080002e4        0x4 LONG 0x20000014 ADDR (.bss)
+                0x00000000080002e8        0x4 LONG 0x2000001c (ADDR (.bss) + SIZEOF (.bss))
+                0x00000000080002ec        0x4 LONG 0x0 ADDR (.bss_CCMRAM)
+                0x00000000080002f0        0x4 LONG 0x0 (ADDR (.bss_CCMRAM) + SIZEOF (.bss_CCMRAM))
+                0x00000000080002f4                __bss_regions_array_end = .
+ *(.init)
+ *(.fini)
+                0x00000000080002f4                . = ALIGN (0x4)
+                0x00000000080002f4                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array_sysinit .preinit_array_sysinit.*)
+ *(.preinit_array_platform .preinit_array_platform.*)
+ *(.preinit_array .preinit_array.*)
+                0x00000000080002f4                PROVIDE (__preinit_array_end = .)
+                0x00000000080002f4                . = ALIGN (0x4)
+                0x00000000080002f4                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x00000000080002f4                PROVIDE (__init_array_end = .)
+                0x00000000080002f4                . = ALIGN (0x4)
+                0x00000000080002f4                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+                0x00000000080002f4                PROVIDE (__fini_array_end = .)
+
+.flashtext
+ *(.flashtext .flashtext.*)
+
+.text           0x00000000080002f4      0x3d4
+ *(.text .text.*)
+ .text.SystemInit
+                0x00000000080002f4       0x68 out/obj/system_stm32f10x.o
+                0x00000000080002f4                SystemInit
+ .text.SystemCoreClockUpdate
+                0x000000000800035c       0xe4 out/obj/system_stm32f10x.o
+                0x000000000800035c                SystemCoreClockUpdate
+ .text.SetSysClock
+                0x0000000008000440        0xc out/obj/system_stm32f10x.o
+ .text.SetSysClockTo72
+                0x000000000800044c      0x100 out/obj/system_stm32f10x.o
+ .text.__initialize_hardware_early
+                0x000000000800054c       0x1c out/obj/_initialize_hardware.o
+                0x000000000800054c                __initialize_hardware_early
+ .text.__initialize_hardware
+                0x0000000008000568        0xc out/obj/_initialize_hardware.o
+                0x0000000008000568                __initialize_hardware
+ .text.NVIC_SystemReset
+                0x0000000008000574       0x30 out/obj/_reset_hardware.o
+ .text.__reset_hardware
+                0x00000000080005a4        0x8 out/obj/_reset_hardware.o
+                0x00000000080005a4                __reset_hardware
+ .text.NVIC_SetPriority
+                0x00000000080005ac       0x54 out/obj/chip_systick.o
+ .text.SysTick_Config
+                0x0000000008000600       0x44 out/obj/chip_systick.o
+ .text.SysTick_Handler
+                0x0000000008000644       0x1c out/obj/chip_systick.o
+                0x0000000008000644                SysTick_Handler
+ .text.chip_systick_Init
+                0x0000000008000660       0x2c out/obj/chip_systick.o
+                0x0000000008000660                chip_systick_Init
+ .text.main     0x000000000800068c       0x16 out/obj/main.o
+                0x000000000800068c                main
+ .text.update_fsm_tick
+                0x00000000080006a2        0xc out/obj/main.o
+                0x00000000080006a2                update_fsm_tick
+ *fill*         0x00000000080006ae        0x2 
+ .text.update_fsm_event
+                0x00000000080006b0       0x18 out/obj/main.o
+                0x00000000080006b0                update_fsm_event
+ *(.rodata .rodata.* .constdata .constdata.*)
+ *(vtable)
+ *(.eh_frame*)
+ *(.glue_7)
+ .glue_7        0x00000000080006c8        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000080006c8        0x0 linker stubs
+
+.vfp11_veneer   0x00000000080006c8        0x0
+ .vfp11_veneer  0x00000000080006c8        0x0 linker stubs
+
+.v4_bx          0x00000000080006c8        0x0
+ .v4_bx         0x00000000080006c8        0x0 linker stubs
+
+.iplt           0x00000000080006c8        0x0
+ .iplt          0x00000000080006c8        0x0 out/obj/_startup.o
+
+.rel.dyn        0x00000000080006c8        0x0
+ .rel.iplt      0x00000000080006c8        0x0 out/obj/_startup.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000000080006c8                . = ALIGN (0x4)
+                0x00000000080006c8                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000000080006c8                __exidx_end = .
+                0x00000000080006c8                . = ALIGN (0x4)
+                0x00000000080006c8                _etext = .
+                0x00000000080006c8                __etext = .
+
+.data_CCMRAM    0x0000000000000000        0x0 load address 0x00000000080006c8
+ FILL mask 0xff
+ *(.data.CCMRAM .data.CCMRAM.*)
+                0x0000000000000000                . = ALIGN (0x4)
+                0x00000000080006c8                _sidata = LOADADDR (.data)
+
+.data           0x0000000020000000       0x14 load address 0x00000000080006c8
+ FILL mask 0xff
+                0x0000000020000000                _sdata = .
+                0x0000000020000000                __data_start__ = .
+ *(.data_begin .data_begin.*)
+ *(.data .data.*)
+ .data.SystemCoreClock
+                0x0000000020000000        0x4 out/obj/system_stm32f10x.o
+                0x0000000020000000                SystemCoreClock
+ .data.AHBPrescTable
+                0x0000000020000004       0x10 out/obj/system_stm32f10x.o
+                0x0000000020000004                AHBPrescTable
+ *(.data_end .data_end.*)
+                0x0000000020000014                . = ALIGN (0x4)
+                0x0000000020000014                _edata = .
+                0x0000000020000014                __data_end__ = .
+
+.igot.plt       0x0000000020000014        0x0 load address 0x00000000080006dc
+ .igot.plt      0x0000000020000014        0x0 out/obj/_startup.o
+
+.bss_CCMRAM     0x0000000000000000        0x0
+ *(.bss.CCMRAM .bss.CCMRAM.*)
+
+.bss            0x0000000020000014        0x8
+                0x0000000020000014                __bss_start__ = .
+                0x0000000020000014                _sbss = .
+ *(.bss_begin .bss_begin.*)
+ *(.bss .bss.*)
+ .bss.AcuMs     0x0000000020000014        0x2 out/obj/chip_systick.o
+ *fill*         0x0000000020000016        0x2 
+ .bss.nFsm.6376
+                0x0000000020000018        0x4 out/obj/main.o
+ *(COMMON)
+ *(.bss_end .bss_end.*)
+                0x000000002000001c                . = ALIGN (0x4)
+                0x000000002000001c                __bss_end__ = .
+                0x000000002000001c                _ebss = .
+
+.noinit_CCMRAM
+ *(.noinit.CCMRAM .noinit.CCMRAM.*)
+
+.noinit         0x000000002000001c        0x0
+                0x000000002000001c                _noinit = .
+ *(.noinit .noinit.*)
+                0x000000002000001c                . = ALIGN (0x4)
+                0x000000002000001c                _end_noinit = .
+                [!provide]                        PROVIDE (end = _end_noinit)
+                [!provide]                        PROVIDE (_end = _end_noinit)
+                [!provide]                        PROVIDE (__end = _end_noinit)
+                [!provide]                        PROVIDE (__end__ = _end_noinit)
+
+._check_stack   0x000000002000001c      0x100
+                0x000000002000011c                . = (. + _Minimum_Stack_Size)
+ *fill*         0x000000002000001c      0x100 
+
+.b1text
+ *(.b1text)
+ *(.b1rodata)
+ *(.b1rodata.*)
+
+.eb0text
+ *(.eb0text)
+ *(.eb0rodata)
+ *(.eb0rodata.*)
+
+.eb1text
+ *(.eb1text)
+ *(.eb1rodata)
+ *(.eb1rodata.*)
+
+.eb2text
+ *(.eb2text)
+ *(.eb2rodata)
+ *(.eb2rodata.*)
+
+.eb3text
+ *(.eb3text)
+ *(.eb3rodata)
+ *(.eb3rodata.*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x59
+ *(.comment)
+ .comment       0x0000000000000000       0x59 out/obj/_startup.o
+                                         0x5a (size before relaxing)
+ .comment       0x0000000000000059       0x5a out/obj/exception_handlers.o
+ .comment       0x0000000000000059       0x5a out/obj/system_stm32f10x.o
+ .comment       0x0000000000000059       0x5a out/obj/_initialize_hardware.o
+ .comment       0x0000000000000059       0x5a out/obj/vectors_stm32f10x.o
+ .comment       0x0000000000000059       0x5a out/obj/_reset_hardware.o
+ .comment       0x0000000000000059       0x5a out/obj/chip_systick.o
+ .comment       0x0000000000000059       0x5a out/obj/main.o
+
+.ARM.attributes
+                0x0000000000000000       0x2b
+ .ARM.attributes
+                0x0000000000000000       0x2d out/obj/_startup.o
+ .ARM.attributes
+                0x000000000000002d       0x2d out/obj/exception_handlers.o
+ .ARM.attributes
+                0x000000000000005a       0x2d out/obj/system_stm32f10x.o
+ .ARM.attributes
+                0x0000000000000087       0x2d out/obj/_initialize_hardware.o
+ .ARM.attributes
+                0x00000000000000b4       0x2d out/obj/vectors_stm32f10x.o
+ .ARM.attributes
+                0x00000000000000e1       0x2d out/obj/_reset_hardware.o
+ .ARM.attributes
+                0x000000000000010e       0x2d out/obj/chip_systick.o
+ .ARM.attributes
+                0x000000000000013b       0x2d out/obj/main.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x208
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x40 out/obj/_startup.o
+ .debug_aranges
+                0x0000000000000040       0x80 out/obj/exception_handlers.o
+ .debug_aranges
+                0x00000000000000c0       0x38 out/obj/system_stm32f10x.o
+ .debug_aranges
+                0x00000000000000f8       0x28 out/obj/_initialize_hardware.o
+ .debug_aranges
+                0x0000000000000120       0x20 out/obj/vectors_stm32f10x.o
+ .debug_aranges
+                0x0000000000000140       0x28 out/obj/_reset_hardware.o
+ .debug_aranges
+                0x0000000000000168       0x60 out/obj/chip_systick.o
+ .debug_aranges
+                0x00000000000001c8       0x40 out/obj/main.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x33b5
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x354 out/obj/_startup.o
+ .debug_info    0x0000000000000354      0xb1f out/obj/exception_handlers.o
+ .debug_info    0x0000000000000e73      0x4b0 out/obj/system_stm32f10x.o
+ .debug_info    0x0000000000001323      0x29e out/obj/_initialize_hardware.o
+ .debug_info    0x00000000000015c1       0xca out/obj/vectors_stm32f10x.o
+ .debug_info    0x000000000000168b      0x2df out/obj/_reset_hardware.o
+ .debug_info    0x000000000000196a      0xfc1 out/obj/chip_systick.o
+ .debug_info    0x000000000000292b      0xa8a out/obj/main.o
+
+.debug_abbrev   0x0000000000000000      0xd58
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x151 out/obj/_startup.o
+ .debug_abbrev  0x0000000000000151      0x22e out/obj/exception_handlers.o
+ .debug_abbrev  0x000000000000037f      0x190 out/obj/system_stm32f10x.o
+ .debug_abbrev  0x000000000000050f       0xd9 out/obj/_initialize_hardware.o
+ .debug_abbrev  0x00000000000005e8       0xa2 out/obj/vectors_stm32f10x.o
+ .debug_abbrev  0x000000000000068a      0x11b out/obj/_reset_hardware.o
+ .debug_abbrev  0x00000000000007a5      0x343 out/obj/chip_systick.o
+ .debug_abbrev  0x0000000000000ae8      0x270 out/obj/main.o
+
+.debug_line     0x0000000000000000      0xd25
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x1f3 out/obj/_startup.o
+ .debug_line    0x00000000000001f3      0x1bc out/obj/exception_handlers.o
+ .debug_line    0x00000000000003af      0x25f out/obj/system_stm32f10x.o
+ .debug_line    0x000000000000060e      0x104 out/obj/_initialize_hardware.o
+ .debug_line    0x0000000000000712       0x6a out/obj/vectors_stm32f10x.o
+ .debug_line    0x000000000000077c      0x142 out/obj/_reset_hardware.o
+ .debug_line    0x00000000000008be      0x2bd out/obj/chip_systick.o
+ .debug_line    0x0000000000000b7b      0x1aa out/obj/main.o
+
+.debug_frame    0x0000000000000000      0x554
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0xc8 out/obj/_startup.o
+ .debug_frame   0x00000000000000c8      0x13c out/obj/exception_handlers.o
+ .debug_frame   0x0000000000000204       0x98 out/obj/system_stm32f10x.o
+ .debug_frame   0x000000000000029c       0x48 out/obj/_initialize_hardware.o
+ .debug_frame   0x00000000000002e4       0x28 out/obj/vectors_stm32f10x.o
+ .debug_frame   0x000000000000030c       0x44 out/obj/_reset_hardware.o
+ .debug_frame   0x0000000000000350      0x158 out/obj/chip_systick.o
+ .debug_frame   0x00000000000004a8       0xac out/obj/main.o
+
+.debug_str      0x0000000000000000      0xf7c
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x2ca out/obj/_startup.o
+                                        0x310 (size before relaxing)
+ .debug_str     0x00000000000002ca      0x50c out/obj/exception_handlers.o
+                                        0x6f4 (size before relaxing)
+ .debug_str     0x00000000000007d6      0x17e out/obj/system_stm32f10x.o
+                                        0x361 (size before relaxing)
+ .debug_str     0x0000000000000954       0x76 out/obj/_initialize_hardware.o
+                                        0x2ba (size before relaxing)
+ .debug_str     0x00000000000009ca       0x60 out/obj/vectors_stm32f10x.o
+                                        0x210 (size before relaxing)
+ .debug_str     0x0000000000000a2a       0x4c out/obj/_reset_hardware.o
+                                        0x2a1 (size before relaxing)
+ .debug_str     0x0000000000000a76      0x44b out/obj/chip_systick.o
+                                        0xaae (size before relaxing)
+ .debug_str     0x0000000000000ec1       0xbb out/obj/main.o
+                                        0x68f (size before relaxing)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+OUTPUT(out/app/app.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_ranges   0x0000000000000000      0x188
+ .debug_ranges  0x0000000000000000       0x30 out/obj/_startup.o
+ .debug_ranges  0x0000000000000030       0x70 out/obj/exception_handlers.o
+ .debug_ranges  0x00000000000000a0       0x28 out/obj/system_stm32f10x.o
+ .debug_ranges  0x00000000000000c8       0x18 out/obj/_initialize_hardware.o
+ .debug_ranges  0x00000000000000e0       0x10 out/obj/vectors_stm32f10x.o
+ .debug_ranges  0x00000000000000f0       0x18 out/obj/_reset_hardware.o
+ .debug_ranges  0x0000000000000108       0x50 out/obj/chip_systick.o
+ .debug_ranges  0x0000000000000158       0x30 out/obj/main.o
