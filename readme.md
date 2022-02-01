@@ -1,6 +1,6 @@
 # Contenido
 * [Seleccionando el Proyecto](#seleccionando-el-proyecto)
-* [Proyectos disponibles]
+* [Proyectos disponibles](#proyectos-disponibles)
 * [Estableciendo el nombre del Ejecutable](#estableciendo-el-nombre-del-ejecutable)
 * [Compilando y corriendo el proyecto seleccionado](#compilando-y-corriendo-el-proyecto-seleccionado)
 * [Configuracion](#configuracion)
@@ -55,7 +55,7 @@ To run this app, you will need to follow these 3 steps:
   - Text Editor or IDE (eg. [vscode](https://code.visualstudio.com/download), [kate](https://kate-editor.org/es/), [vi/vim](https://www.vim.org/download.php))
 
   - [Git Bash Windows](https://git-scm.com/downloads)
-  - [Git Command in Linux]
+  - [Git Command in Linux](https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line)
   
     * opt 1
     ~~~
