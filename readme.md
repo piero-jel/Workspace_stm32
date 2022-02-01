@@ -3,7 +3,7 @@
 * [2. Install cross compiler](#2-install-cross-compiler)
 * [3. Local Setup and Running on Windows, Linux and Mac OS](#3-local-setup-and-running-on-windows,-linux-and-mac-os)
 * [4. Arbol jeraquico del Proyecto](#4-arbol-jeraquico-del-proyecto)
-* [5. Descripcion de los Archivos](#5-Descripcion de los Archivos)
+* [5. Descripcion de los Archivos](#5-descripcion-de-los-archivos)
 * [6. Proyectos disponibles](#6-proyectos-disponibles)
 * [7. Seleccionando el Proyecto](#7-seleccionando-el-proyecto)
 * [8. Estableciendo el nombre del Ejecutable](#8-estableciendo-el-nombre-del-ejecutable)
